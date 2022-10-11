@@ -1,1 +1,20 @@
 
+.header{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(228, 104, 59, 0.83);
+    color:white;
+    font-size: 2rem;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    text-align: center;
+    box-shadow: 7px 7px 8px gray;
+    position: sticky;
+    top: 0;
+}
+
+.header img{
+    width: 50%;
+}

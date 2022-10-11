@@ -16,7 +16,7 @@ const data = [
   {
     id: 3,
     name: "Adam Mahogany",
-    job: "Grand Fatherher",
+    job: "Grand Father",
     comment: "Our living treasures.",
     img: "https://images.pexels.com/photos/35011/people-peoples-homeless-male.jpg?auto=compress&cs=tinysrgb&w=1600",
   },
