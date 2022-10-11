@@ -12,10 +12,7 @@ const Main = ({ data }) => {
             <h2>{job}</h2>
             <p>{comment}</p>
             <img src={img} alt="img" />
-            <div>
-              <button>Small</button>
-              <button>Large</button>
-            </div>
+           
           </div>
         );
       })}
