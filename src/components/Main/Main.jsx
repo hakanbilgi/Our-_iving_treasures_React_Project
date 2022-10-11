@@ -3,7 +3,7 @@ import "./Main.css"
 const Main = ({ data }) => {
   console.log(data);
   return (
-    <div>
+    <div className="container">
       {data.map((item) => {
         const { id, name, job, comment, img } = item;
         return (
@@ -13,11 +13,12 @@ const Main = ({ data }) => {
             <p>{comment}</p>
             <img src={img} alt="img" />
            
-          </div>
+            </div>
+          
         );
       })}
     </div>
   );
 };
 
-export default Main;
+export default Main
