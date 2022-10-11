@@ -5,13 +5,17 @@
 }
 .container h1{    
     color: red;
-    margin-bottom: 30px;
-  
+    margin-bottom: 10px;
+}
+.container h2{    
+    color: rgb(51, 27, 123);
+    margin-bottom: 10px;
+
     
    
 }
 .container img{
-    width: 50%;
+    width: 40%;
     box-shadow: 7px 7px 8px gray, -7px -7px 8px gray;
     border-radius: 10px;
 }
@@ -20,6 +24,6 @@
 
 }
 .container p{
-    margin: 30px;
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
