@@ -1,8 +1,26 @@
 import "./Main.css"
-const Main = () => {
-  return (
-    <div>Main</div>
-  )
-}
 
-export default Main
+const Main = ({ data }) => {
+  console.log(data);
+  return (
+    <div>
+      {data.map((item) => {
+        const { id, name, job, comment, img } = item;
+        return (
+          <div key={id}>
+            <h1>{name}</h1>
+            <h2>{job}</h2>
+            <p>{comment}</p>
+            <img src={img} alt="img" />
+            <div>
+              <button>Small</button>
+              <button>Large</button>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+export default Main;

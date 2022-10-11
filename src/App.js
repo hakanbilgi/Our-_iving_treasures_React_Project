@@ -7,9 +7,9 @@ import data from "./assest/data"
 function App() {
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <Main data={data} />
+      <Footer />
     </>
   );
 }
