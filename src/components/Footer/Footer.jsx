@@ -5,6 +5,7 @@ const Footer = () => {
       <p>
         Copyright by Hakan Bilgi {new Date().getFullYear()}
       </p>
+      
     </footer>
   );
 }
